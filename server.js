@@ -9,7 +9,7 @@ const messages = require("./routes/api/messages");
 
 const app = express();
 
-// Port that the webserver listens to
+// Port that the webserver listens to 5000
 const port = process.env.PORT || 5000;
 
 const server = app.listen(port, () =>
